@@ -14,7 +14,11 @@
 # - Đăng nhập ubuntu
 # <img width="550" height="275" alt="image" src="https://github.com/user-attachments/assets/93f7d975-dcbf-46d5-9fda-46850c340087" /> <br>
 # 4. Cài đặt Docker Desktop và tạo file docker-compose.yml để khởi động tất cả các dịch vụ yêu cầu
-# 
+# - ktra decker deskstrop
+# <img width="874" height="749" alt="image" src="https://github.com/user-attachments/assets/24dc0e53-4374-4875-9646-3adccbfb0a21" /> <br>
+# -  Sử dụng 1 file docker-compose.yml để cài đặt các docker container sau
+# <img width="1528" height="827" alt="image" src="https://github.com/user-attachments/assets/e9b59ec2-a43c-4f4f-9b86-fed6f867406e" /> <br>
 
 
+  
 
