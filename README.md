@@ -11,6 +11,8 @@
 # <img width="1172" height="619" alt="image" src="https://github.com/user-attachments/assets/d4275ad8-6aee-46a3-ba88-56c93ce20d2b" /> <br>
 # 3. Vào Microsoft Store và cài đặt bản phân phối Ubuntu
 # <img width="1384" height="1031" alt="image" src="https://github.com/user-attachments/assets/d97aaeef-0d41-4958-a45f-a7f388485bd2" /> <br>
+# - Đăng nhập ubuntu
+# <img width="550" height="275" alt="image" src="https://github.com/user-attachments/assets/93f7d975-dcbf-46d5-9fda-46850c340087" /> <br>
 # 4. Cài đặt Docker Desktop và tạo file docker-compose.yml để khởi động tất cả các dịch vụ yêu cầu
 # 
 
