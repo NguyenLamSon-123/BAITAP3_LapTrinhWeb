@@ -19,7 +19,14 @@
 # -  Sử dụng 1 file docker-compose.yml để cài đặt các docker container sau
 # <img width="1528" height="827" alt="image" src="https://github.com/user-attachments/assets/e9b59ec2-a43c-4f4f-9b86-fed6f867406e" /> <br>
 # 4. Lập trình web frontend+backend
+# 4.1 Web thương mại điện tử
+# <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/5221a44d-c94a-4d1c-8755-614ad0dd6693" /> <br>
+# -bảng csdl trong mariadb 
+# <img width="1721" height="941" alt="image" src="https://github.com/user-attachments/assets/051a8f79-7935-442e-b16f-26ce1708cbd7" /> <br>
+# -Tạo API (Node-RED)
+# <img width="1494" height="784" alt="image" src="https://github.com/user-attachments/assets/f2a860df-a1d4-4e34-b31f-3fa0910aec54" /> <br>
 # 
+
 
   
 
