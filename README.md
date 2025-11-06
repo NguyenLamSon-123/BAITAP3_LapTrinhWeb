@@ -25,7 +25,19 @@
 # <img width="1721" height="941" alt="image" src="https://github.com/user-attachments/assets/051a8f79-7935-442e-b16f-26ce1708cbd7" /> <br>
 # -Tạo API (Node-RED)
 # <img width="1494" height="784" alt="image" src="https://github.com/user-attachments/assets/f2a860df-a1d4-4e34-b31f-3fa0910aec54" /> <br>
+# backend: sử dụng nodered xử lý request gửi lên từ javascript, phản hồi về json ( đã gọi nhưng lệnh còn hơi loặn mắt em xin lỗi thầy ạ )
+# <img width="1919" height="356" alt="image" src="https://github.com/user-attachments/assets/fd8cfaf1-e08e-41c1-a622-237363ba9b1e" /> <br>
+# hoàn thành các tính năng cửa web js
+# <img width="1097" height="585" alt="image" src="https://github.com/user-attachments/assets/6106b899-f335-496e-8ac0-60c607b95055" /> <br>
+# trang đăng nhâp dành cho admin:
+# <img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/0cdb3372-d545-44bc-afca-e99f375da658" /> <br>
+# của hàng web dành cho khách hàng ( chạy thử live sever ) 
+# <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f64cb735-c295-4af4-b85f-1d1723295c2c" /> <br>
+#  Nginx làm web-server:
 # 
+
+
+
 
 
   
