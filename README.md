@@ -33,6 +33,9 @@
 # <img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/0cdb3372-d545-44bc-afca-e99f375da658" /> <br>
 # của hàng web dành cho khách hàng ( chạy thử live sever ) 
 # <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f64cb735-c295-4af4-b85f-1d1723295c2c" /> <br>
+# Cài đặt Grafana (Biểu đồ):
+#
+#
 #  Nginx làm web-server:
 # 
 
