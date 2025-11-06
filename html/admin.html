@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Quản Trị</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS riêng cho trang Admin */
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .update-form { display: flex; gap: 10px; }
+        .update-form input { padding: 5px; }
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">Trang Quản Trị</a>
+            <nav id="user-nav">
+                <a href="#" id="logout-button">Đăng xuất</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="admin-container" class="container">
+        <h2>Quản lý Đơn Hàng</h2>
+        
+        <div id="orders-list">
+            <p>Đang tải đơn hàng...</p>
+        </div>
+    </main>
+
+    <script src="admin.js"></script>
+</body>
+</html>

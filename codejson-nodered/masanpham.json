@@ -1,0 +1,137 @@
+[
+    {
+        "id": "tab_ecommerce_fixed",
+        "type": "tab",
+        "label": "E-Commerce (Đã Sửa)",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "db_config_lamson",
+        "type": "mysql",
+        "name": "DB_NguyenLamSon_Config",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "database": "nguyenlamson",
+        "user": "root",
+        "charset": "UTF8"
+    },
+    {
+        "id": "http_in_categories",
+        "type": "http in",
+        "z": "tab_ecommerce_fixed",
+        "name": "GET /api/categories",
+        "url": "/api/categories",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 100,
+        "wires": [
+            [
+                "func_sql_categories"
+            ]
+        ]
+    },
+    {
+        "id": "func_sql_categories",
+        "type": "function",
+        "z": "tab_ecommerce_fixed",
+        "name": "Set SQL Categories",
+        "func": "msg.topic = \"SELECT * FROM categories\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 100,
+        "wires": [
+            [
+                "mysql_exec_categories"
+            ]
+        ]
+    },
+    {
+        "id": "mysql_exec_categories",
+        "type": "mysql",
+        "z": "tab_ecommerce_fixed",
+        "mydb": "db_config_lamson",
+        "name": "Lấy Categories",
+        "outField": "payload",
+        "x": 610,
+        "y": 100,
+        "wires": [
+            [
+                "http_out_categories"
+            ]
+        ]
+    },
+    {
+        "id": "http_out_categories",
+        "type": "http response",
+        "z": "tab_ecommerce_fixed",
+        "name": "Trả về JSON",
+        "statusCode": "200",
+        "headers": {},
+        "x": 810,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "http_in_bestsellers",
+        "type": "http in",
+        "z": "tab_ecommerce_fixed",
+        "name": "GET /api/products/bestsellers",
+        "url": "/api/products/bestsellers",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 250,
+        "y": 200,
+        "wires": [
+            [
+                "func_sql_bestsellers"
+            ]
+        ]
+    },
+    {
+        "id": "func_sql_bestsellers",
+        "type": "function",
+        "z": "tab_ecommerce_fixed",
+        "name": "Set SQL Bestsellers",
+        "func": "msg.topic = \"SELECT * FROM products WHERE is_bestseller = 1\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 450,
+        "y": 200,
+        "wires": [
+            [
+                "mysql_exec_bestsellers"
+            ]
+        ]
+    },
+    {
+        "id": "mysql_exec_bestsellers",
+        "type": "mysql",
+        "z": "tab_ecommerce_fixed",
+        "mydb": "db_config_lamson",
+        "name": "Lấy Bestsellers",
+        "outField": "payload",
+        "x": 650,
+        "y": 200,
+        "wires": [
+            [
+                "http_out_bestsellers"
+            ]
+        ]
+    },
+    {
+        "id": "http_out_bestsellers",
+        "type": "http response",
+        "z": "tab_ecommerce_fixed",
+        "name": "Trả về JSON",
+        "statusCode": "200",
+        "headers": {},
+        "x": 850,
+        "y": 200,
+        "wires": []
+    }
+]
